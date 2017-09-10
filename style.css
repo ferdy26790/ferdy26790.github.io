@@ -1,0 +1,392 @@
+ul {
+  list-style: none;
+
+}
+
+@font-face {
+  font-family: block;
+  src : url("font/Blockbuster.ttf");
+}
+
+.head h1 {
+  font-family: block;
+  text-align: left;
+  color:skyblue;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 24px;
+}
+
+.head ul {
+float: right;
+
+}
+
+.head img {
+  opacity: 0.3;
+  margin-right: 20px;
+  width: 50px;
+  height: 50px;
+}
+
+.head img:hover {
+  border: 5px solid skyblue;
+}
+
+.portofolio {
+  width:100%;
+  height: 600px;
+}
+
+.card1, .card2, .card3 {
+  float: left;
+  margin-top: 20px;
+
+}
+
+.card2 {
+  margin: 20px 50px 0 50px;
+}
+
+.card1 {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  transition: 2s;
+  transform-style: preserve-3d;
+
+}
+
+.front, .back1 {
+  width:300px;
+  height: 200px;
+  position: absolute;
+  backface-visibility: hidden;
+  border-radius: 25px;
+
+}
+
+.front {
+  background-color: gray;
+
+}
+
+.front p {
+  color: skyblue;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 80px;
+  font-family: block;
+}
+
+.back1 {
+  background: url("img/p1.jpg");
+  background-size: cover;
+  transform: rotateY(185deg);
+
+
+}
+
+
+.card1:hover {
+  transform: rotateY(180deg);
+}
+
+
+/*card2*/
+.card2 {
+  width: 300px;
+  height: 200;
+  position: relative;
+  transition: 2s;
+  transform-style: preserve-3d;
+
+
+}
+
+.front2, .back2 {
+  width:300px;
+  height: 200px;
+  position: absolute;
+  backface-visibility: hidden;
+
+}
+
+.front2 {
+  background-color: grey;
+
+}
+
+.front2 p{
+  color: skyblue;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 80px;
+  font-family: block;
+}
+
+.back2 {
+  background: url("img/p2.jpg");
+  background-size: cover;
+  transform: rotateY(185deg);
+  border-radius: 25px;
+
+
+}
+
+
+.card2:hover {
+  transform: rotateY(180deg);
+}
+
+/*card3*/
+.card3 {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  transition: 2s;
+  transform-style: preserve-3d;
+
+
+
+
+
+}
+
+.front3, .back3 {
+  width:300px;
+  height: 200px;
+  position: absolute;
+  backface-visibility: hidden;
+
+}
+
+.front3 {
+  background-color: grey;
+
+}
+
+.front3 p{
+  color: skyblue;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 80px;
+  font-family: block;
+}
+
+.back3 {
+  background: url("img/p3.jpg");
+  background-size: cover;
+  transform: rotateY(185deg);
+  border-radius: 25px;
+
+
+}
+
+
+.card3:hover {
+  transform: rotateY(180deg);
+}
+
+.back4 {
+  background: url("img/p4.jpg");
+  background-size: cover;
+  transform: rotateY(185deg);
+  border-radius: 25px;
+  width:300px;
+  height: 200px;
+  position: absolute;
+  backface-visibility: hidden;
+
+}
+
+.back5 {
+  background: url("img/p5.jpg");
+  background-size: cover;
+  transform: rotateY(185deg);
+  border-radius: 25px;
+  width:300px;
+  height: 200px;
+  position: absolute;
+  backface-visibility: hidden;
+
+}
+
+.back6 {
+  background: url("img/p6.jpg");
+  background-size: cover;
+  transform: rotateY(185deg);
+  border-radius: 25px;
+  width:300px;
+  height: 200px;
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.contact h1 {
+  margin-bottom: 20px;
+}
+
+.contact p {
+  font-size: 18px;
+}
+
+
+body {
+  background-color: lightgrey;
+
+  background-size: cover;
+
+}
+
+* {
+  color: grey;
+  margin:0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+  letter-spacing: 1.5px;
+  font-size: 16px;
+
+}
+
+header {
+  width:100%;
+  height: 10%;
+  position: fixed;
+  background
+
+
+}
+
+h1 {
+  text-align: center;
+}
+
+.separator {
+  width: 100%;
+  height: 2px;
+  background: skyblue;
+  margin: 10px 0 10px 0;
+  opacity: 0.5;
+}
+
+#content {
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  padding-top: 100px;
+}
+
+#content h2 {
+  font-size: 20px;
+}
+
+#about h1 {
+  font-size: 20px;
+}
+
+#about h3 {
+  text-align: center;
+}
+
+.portofolio h1 {
+  font-size: 20px;
+}
+
+#skill h1 {
+  text-align: right;
+  font-size: 20px;
+}
+
+* {
+  box-sizing: border-box}
+
+.bar {
+  width: 100%;
+  background-color: #ddd;
+
+}
+
+.skills, .html {
+  text-align: right;
+  padding-right: 20px;
+  line-height: 40px;
+  color: white;
+  margin-bottom: 20px;
+
+}
+
+.html {
+  width: 0%;
+  background-color: #4CAF50;
+  transition: 2s;
+
+}
+
+.html:hover {
+  width: 90%;
+
+}
+
+.css {
+  width: 0%;
+  background-color: #2196F3;
+  transition: 2s;
+}
+
+.css:hover {
+  width: 80%;
+
+}
+
+.js {
+  width: 0%;
+  background-color: #f44336;
+  transition: 2s;
+}
+
+
+.js:hover {
+  width: 65%;
+}
+
+.phy {
+  width: 0%;
+  background-color: #808080;
+  transition: 2s;
+}
+
+
+.phy:hover {
+  width: 60%;
+}
+
+.github, .inst, .fb, .twt {
+  float:left;
+  margin-left: 140px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  opacity: 0.5;
+  transition: 1.5s;
+}
+
+.github:hover, .inst:hover, .fb:hover, .twt:hover {
+  transform: rotateY(180deg);
+}
+
+
+.foot {
+  width: 100%;
+  height: 60px;
+  background-color: skyblue;
+  margin-top: 150px;
+}
+
+.foot h3 {
+  text-align: center;
+  padding-top: 25px;
+
+  font-size: 18px;
+  color:black;
+  opacity:0.4;
+}
